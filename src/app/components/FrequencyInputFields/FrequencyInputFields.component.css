@@ -1,0 +1,21 @@
+.frequency1 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 16px;
+}
+.frequency-input-fields {
+  position: absolute;
+  top: 76px;
+  left: 282px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--m3-label-medium-size);
+  color: var(--m3-sys-light-text-2);
+  font-family: var(--m3-label-medium);
+}

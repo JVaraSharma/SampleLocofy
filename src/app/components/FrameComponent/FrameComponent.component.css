@@ -1,0 +1,91 @@
+.infosys-finacle-logo-1-icon {
+  height: 24px;
+  width: 148px;
+  position: relative;
+  object-fit: cover;
+}
+.notifications-icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.avatar-icon {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.prayag-jaikar {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 16px;
+  font-weight: 600;
+  color: inherit;
+}
+.arrow-drop-down-icon {
+  height: 12px;
+  width: 12px;
+  position: relative;
+}
+.prayag-jaikar-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.avatar-parent {
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.avatar-parent,
+.notifications-parent,
+.text-field-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.notifications-parent {
+  width: 191px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  color: var(--m3-sys-light-text-1);
+}
+.text-field-group {
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+}
+.frame-header,
+.infosys-finacle-logo-1-parent {
+  align-self: stretch;
+  display: flex;
+  max-width: 100%;
+}
+.infosys-finacle-logo-1-parent {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame-header {
+  background-color: var(--m3-sys-light-on-primary);
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-13xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--m3-label-medium-size);
+  color: var(--schemes-gradient-success-2);
+  font-family: var(--m3-label-medium);
+}
+@media screen and (max-width: 700px) {
+  .text-field-group {
+    gap: var(--gap-base);
+  }
+}

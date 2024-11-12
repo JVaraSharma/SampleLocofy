@@ -1,0 +1,12 @@
+.segmented-button {
+  align-self: stretch;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--m3-label-large-size);
+  color: var(--m3-sys-light-text-2);
+  font-family: var(--m3-label-medium);
+}

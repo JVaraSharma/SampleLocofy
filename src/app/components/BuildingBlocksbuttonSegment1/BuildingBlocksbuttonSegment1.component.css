@@ -1,0 +1,43 @@
+.label-text12 {
+  height: 20px;
+  width: 63px;
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.state-layer10 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-xs);
+}
+.container2,
+.segment-end,
+.state-layer10 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container2 {
+  align-self: stretch;
+  border-radius: 0 var(--br-5xs) var(--br-5xs) 0;
+  background-color: var(--m3-sys-light-on-primary);
+  border: 1px solid var(--m3-sys-light-primary);
+  overflow: hidden;
+  flex-direction: column;
+}
+.segment-end {
+  height: 48px;
+  flex-direction: row;
+  padding: var(--padding-9xs) 0;
+  box-sizing: border-box;
+  margin-left: -1px;
+  text-align: center;
+  font-size: var(--m3-label-large-size);
+  color: var(--m3-sys-light-text-2);
+  font-family: var(--m3-label-medium);
+}

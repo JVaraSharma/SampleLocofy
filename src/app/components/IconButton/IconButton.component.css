@@ -1,0 +1,37 @@
+.icon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.state-layer7 {
+  flex-direction: row;
+  padding: var(--padding-5xs);
+}
+.container,
+.main,
+.state-layer7 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  flex-direction: row;
+}
+.main {
+  width: 24px;
+  height: 48px;
+  flex-direction: column;
+  padding: 0 0 var(--padding-base);
+  box-sizing: border-box;
+}
+.main[data-state="Enabled"][data-style="Outlined"] {
+  padding: var(--padding-5xs);
+}
+.main[data-state="Enabled"][data-style="Outlined"] .container {
+  align-self: unset;
+  flex: unset;
+}

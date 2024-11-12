@@ -1,0 +1,28 @@
+<div
+  class="text-field12"
+  [attr.data-leadingIcon]="leadingIcon"
+  [attr.data-state]="state"
+  [attr.data-style]="style"
+  [attr.data-textConfigurations]="textConfigurations"
+  [attr.data-trailingIcon]="trailingIcon"
+  [ngStyle]="textFieldStyle"
+>
+  <div class="text-field11">
+    <div class="state-layer8" [ngStyle]="stateLayerStyle">
+      <input
+        class="content6"
+        [placeholder]="placeholder"
+        type="text"
+        [ngStyle]="contentStyle"
+      /><icon-button
+        [state]="'Enabled'"
+        [style]="'Standard'"
+        [icon]="'assets/icon-12.svg'"
+      >
+      </icon-button>
+    </div>
+  </div>
+  <div class="supporting-text11" *ngIf="showSupportingText">
+    <div class="supporting-text10">{{supportingText}}</div>
+  </div>
+</div>

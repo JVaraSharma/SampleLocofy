@@ -1,0 +1,43 @@
+.segment-button-labels {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--m3-label-large-size);
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  font-weight: 600;
+  font-family: var(--m3-label-medium);
+  color: var(--m3-sys-light-primary);
+  text-align: center;
+}
+.container1,
+.segment-start,
+.state-layer9 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.state-layer9 {
+  align-self: stretch;
+  height: 40px;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-xs);
+  box-sizing: border-box;
+}
+.container1,
+.segment-start {
+  flex: 1;
+}
+.container1 {
+  cursor: pointer;
+  border: 1px solid var(--m3-sys-light-primary);
+  padding: 0;
+  background-color: var(--m3-sys-light-backgrund-primary);
+  align-self: stretch;
+  border-radius: var(--br-5xs) 0 0 var(--br-5xs);
+  overflow: hidden;
+  flex-direction: column;
+}
+.segment-start {
+  flex-direction: row;
+  padding: var(--padding-9xs) 0;
+}

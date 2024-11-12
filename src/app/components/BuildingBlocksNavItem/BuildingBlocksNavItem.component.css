@@ -1,0 +1,61 @@
+.icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.badge-label-text,
+.label {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  font-weight: 600;
+}
+.label {
+  text-decoration: none;
+  flex: 1;
+  color: inherit;
+}
+.badge-label-text {
+  text-align: right;
+}
+.root,
+.state-layer6 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.state-layer6 {
+  flex: 1;
+  padding: var(--padding-base) var(--padding-5xl) var(--padding-base)
+    var(--padding-base);
+  gap: var(--gap-xs);
+}
+.root {
+  border-radius: var(--br-5xs);
+  background-color: var(--m3-sys-light-backgrund-primary);
+  height: 56px;
+  overflow: hidden;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--m3-label-large-size);
+  color: var(--schemes-on-secondary-container);
+  font-family: var(--m3-label-medium);
+}
+.root[data-selected="false"][data-showIcon="true"][data-state="Enabled"] {
+  border-radius: var(--br-81xl);
+  background-color: unset;
+}
+.root[data-selected="false"][data-showIcon="true"][data-state="Enabled"]
+  .label {
+  font-weight: 500;
+  color: var(--m3-sys-light-text-2);
+}
+.root[data-selected="false"][data-showIcon="true"][data-state="Enabled"]
+  .badge-label-text {
+  font-weight: 500;
+  color: var(--schemes-gradient-success-2);
+}
