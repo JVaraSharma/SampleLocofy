@@ -1,20 +1,20 @@
 .submit-button-label {
   position: relative;
-  font-size: var(--m3-label-large-size);
+  font-size: var(--m3-label-large-prominent-size);
   letter-spacing: 0.1px;
   line-height: 20px;
   font-weight: 600;
-  font-family: var(--m3-label-medium);
-  color: var(--m3-sys-light-on-primary);
+  font-family: var(--m3-title-medium);
+  color: var(--m3-white);
   text-align: center;
 }
 .root1,
-.state-layer12 {
+.state-layer18 {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.state-layer12 {
+.state-layer18 {
   align-self: stretch;
   flex: 1;
   flex-direction: row;
@@ -24,7 +24,7 @@
   cursor: pointer;
   border: 0;
   padding: 0;
-  background-color: var(--m3-sys-light-primary);
+  background-color: var(--m3-sys-light-stroke-primary);
   width: 168px;
   height: 44px;
   border-radius: var(--br-5xs);
@@ -33,13 +33,13 @@
   flex-direction: column;
 }
 .root1[data-showIcon="false"][data-state="Enabled"][data-style="Outlined"] {
-  border: 1px solid var(--m3-sys-light-primary);
-  background-color: var(--m3-sys-light-on-primary);
+  border: 1px solid var(--m3-sys-light-stroke-primary);
+  background-color: var(--m3-white);
   box-sizing: border-box;
 }
 .root1[data-showIcon="false"][data-state="Enabled"][data-style="Outlined"]
   .submit-button-label {
-  color: var(--m3-sys-light-primary);
+  color: var(--m3-sys-light-stroke-primary);
   height: 20px;
   width: 76px;
   display: flex;

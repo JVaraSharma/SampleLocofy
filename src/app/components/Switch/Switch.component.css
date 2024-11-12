@@ -7,7 +7,7 @@
 .handle-shape {
   width: 16px;
   border-radius: var(--br-5xl);
-  background-color: var(--m3-sys-light-on-primary);
+  background-color: var(--m3-white);
   height: 16px;
   overflow: hidden;
   flex-shrink: 0;
@@ -16,13 +16,13 @@
   box-sizing: border-box;
 }
 .handle-shape,
-.state-layer14,
+.state-layer20,
 .target {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.state-layer14 {
+.state-layer20 {
   border-radius: var(--br-81xl);
   flex-direction: column;
   padding: var(--padding-5xs) var(--padding-5xs) var(--padding-5xs)
@@ -45,7 +45,7 @@
 .switch1 {
   width: 38px;
   border-radius: var(--br-81xl);
-  background-color: var(--m3-sys-light-primary);
+  background-color: var(--m3-sys-light-stroke-primary);
   height: 20px;
   display: flex;
   flex-direction: row;

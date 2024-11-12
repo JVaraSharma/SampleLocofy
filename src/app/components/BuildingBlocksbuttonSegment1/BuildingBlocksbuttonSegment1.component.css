@@ -1,4 +1,4 @@
-.label-text12 {
+.label-text24 {
   height: 20px;
   width: 63px;
   position: relative;
@@ -9,14 +9,14 @@
   align-items: center;
   justify-content: center;
 }
-.state-layer10 {
+.state-layer16 {
   align-self: stretch;
   flex-direction: row;
   padding: var(--padding-3xs) var(--padding-xs);
 }
 .container2,
 .segment-end,
-.state-layer10 {
+.state-layer16 {
   flex: 1;
   display: flex;
   align-items: center;
@@ -25,8 +25,8 @@
 .container2 {
   align-self: stretch;
   border-radius: 0 var(--br-5xs) var(--br-5xs) 0;
-  background-color: var(--m3-sys-light-on-primary);
-  border: 1px solid var(--m3-sys-light-primary);
+  background-color: var(--m3-white);
+  border: 1px solid var(--m3-sys-light-stroke-primary);
   overflow: hidden;
   flex-direction: column;
 }
@@ -37,7 +37,7 @@
   box-sizing: border-box;
   margin-left: -1px;
   text-align: center;
-  font-size: var(--m3-label-large-size);
+  font-size: var(--m3-label-large-prominent-size);
   color: var(--m3-sys-light-text-2);
-  font-family: var(--m3-label-medium);
+  font-family: var(--m3-title-medium);
 }

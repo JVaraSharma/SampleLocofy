@@ -4,16 +4,17 @@ body {
   line-height: normal;
 }
 :root {
-  --m3-label-medium: "Encode Sans";
-  --m3-label-large-size: 14px;
-  --m3-label-medium-size: 12px;
+  --m3-title-medium: "Encode Sans";
+  --m3-label-large-prominent-size: 14px;
+  --m3-body-small-size: 12px;
   --m3-title-medium-size: 16px;
   --m3-label-small-size: 11px;
+  --m3-title-large-size: 22px;
   --m3-sys-light-background-1: #f7f8f9;
-  --m3-sys-light-on-primary: #fff;
+  --m3-white: #fff;
   --m3-sys-light-background-secondary: #f4f8fc;
-  --m3-sys-light-backgrund-primary: #ebf1fb;
-  --m3-sys-light-primary: #0047cc;
+  --m3-sys-light-background-3: #ebf1fb;
+  --m3-sys-light-stroke-primary: #0047cc;
   --m3-sys-light-text-2: #4d5569;
   --schemes-gradient-success-2: #37bbb2;
   --m3-sys-light-stroke-1: #d1d3dc;
@@ -21,6 +22,7 @@ body {
   --m3-sys-light-text-1: #202a43;
   --schemes-on-secondary-container: #1d192b;
   --m3-sys-light-stroke-2: #797f8e;
+  --color-firebrick: #a41e1e;
   --schemes-outline-variant: #cac4d0;
   --gap-13xl: 32px;
   --gap-base: 16px;
@@ -33,6 +35,8 @@ body {
   --gap-11xs: 2px;
   --gap-lgi: 19px;
   --gap-9xs: 4px;
+  --gap-lg: 18px;
+  --gap-21xl: 40px;
   --padding-xl: 20px;
   --padding-5xs: 8px;
   --padding-base: 16px;

@@ -71,7 +71,7 @@
 }
 .navigation-drawer {
   width: 200px;
-  background-color: var(--m3-sys-light-on-primary);
+  background-color: var(--m3-white);
   border-right: 1px solid var(--m3-sys-light-stroke-1);
   box-sizing: border-box;
   height: 1012px;
@@ -83,9 +83,9 @@
   justify-content: flex-start;
   padding: var(--padding-xs);
   text-align: left;
-  font-size: var(--m3-label-large-size);
+  font-size: var(--m3-label-large-prominent-size);
   color: var(--schemes-gradient-success-2);
-  font-family: var(--m3-label-medium);
+  font-family: var(--m3-title-medium);
 }
 @media screen and (max-width: 950px) {
   .navigation-drawer {

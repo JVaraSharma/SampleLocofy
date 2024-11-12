@@ -1,4 +1,9 @@
-import { Component, ViewEncapsulation, HostBinding } from "@angular/core";
+import {
+  Component,
+  ViewEncapsulation,
+  HostBinding,
+  Input,
+} from "@angular/core";
 
 import { TextField } from "../TextField/TextField.component";
 @Component({
@@ -13,4 +18,7 @@ export class FrameComponent {
   @HostBinding("style.display") display = "contents";
 
   constructor() {}
+
+  /** Value props */
+  @Input() infosysFinacleLogo1: string = "";
 }

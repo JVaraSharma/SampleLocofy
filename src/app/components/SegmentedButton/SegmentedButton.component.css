@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-size: var(--m3-label-large-size);
+  font-size: var(--m3-label-large-prominent-size);
   color: var(--m3-sys-light-text-2);
-  font-family: var(--m3-label-medium);
+  font-family: var(--m3-title-medium);
 }

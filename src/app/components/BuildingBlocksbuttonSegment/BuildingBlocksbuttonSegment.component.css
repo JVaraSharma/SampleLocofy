@@ -1,22 +1,22 @@
 .segment-button-labels {
   text-decoration: none;
   position: relative;
-  font-size: var(--m3-label-large-size);
+  font-size: var(--m3-label-large-prominent-size);
   letter-spacing: 0.1px;
   line-height: 20px;
   font-weight: 600;
-  font-family: var(--m3-label-medium);
-  color: var(--m3-sys-light-primary);
+  font-family: var(--m3-title-medium);
+  color: var(--m3-sys-light-stroke-primary);
   text-align: center;
 }
 .container1,
 .segment-start,
-.state-layer9 {
+.state-layer15 {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.state-layer9 {
+.state-layer15 {
   align-self: stretch;
   height: 40px;
   flex-direction: row;
@@ -29,9 +29,9 @@
 }
 .container1 {
   cursor: pointer;
-  border: 1px solid var(--m3-sys-light-primary);
+  border: 1px solid var(--m3-sys-light-stroke-primary);
   padding: 0;
-  background-color: var(--m3-sys-light-backgrund-primary);
+  background-color: var(--m3-sys-light-background-3);
   align-self: stretch;
   border-radius: var(--br-5xs) 0 0 var(--br-5xs);
   overflow: hidden;
